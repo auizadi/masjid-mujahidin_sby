@@ -4,3 +4,34 @@
 .text-deskripsi {
     text-align: justify;
 }
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2em;
+}
+
+.ijo {
+    color: #33b412;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#story {
+    font-family: 'EB Garamond', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #333;
+}

@@ -39,13 +39,13 @@
 
           <div class="d-grid gap-2 d-md-flex justify-content-md-end my-3">
 
-            <button class="btn btn-primary bg-success fw-bold display-2 rounded-pill px-4 py-3 shadow-sm" type="button">KIRIM PESAN</button>
+            <button class="btn btn-primary fw-bold display-2 rounded-pill px-4 py-3 shadow-sm" type="button" id="ijo">KIRIM PESAN</button>
           </div>
         </div>
       </div>
 
       </div>
-      <div class="col-4 bg-success rounded-end-4">
+      <div class="col-4 rounded-end-4" id="ijo">
         <h3 class="text-light fw-bold my-4">Informasi</h3>
         <h2 class="text-light my-4">Kontak atau <br>Kunjungi Kami di:</h2>
         <h3 class="text-light fw-bold my-4">ALAMAT SUREL</h3>
