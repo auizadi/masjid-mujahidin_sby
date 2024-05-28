@@ -37,7 +37,7 @@
     <div class="row justify-content-center g-5">
       <div class="col-12 col-lg-6">
         <h4 class="ijo my-3 fw-bold">SEJARAH SINGKAT</h4>
-        <h2 class="my-3">Yayasan Mujahidin Surabaya</h2>
+        <h2 class="my-3 display-5"  id="story">Yayasan Mujahidin Surabaya</h2>
         <p class="text">
         Yayasan Masjid Mujahidin Surabaya memiliki sejarah yang kaya dan berakar dalam semangat kebersamaan dan keteguhan. Berdiri pada tahun [tahun berdiri], yayasan ini lahir dari tekad masyarakat Surabaya untuk memiliki pusat ibadah dan pusat kegiatan Islami yang berkualitas.
         </p>
@@ -101,25 +101,39 @@
     </div>
     <div class="row my-4">
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="400">0</span>+</p>
+          <p class="my-3 text-secondary">SISWA SISWI</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="1000">0</span>+</p>
+          <p class="my-3 text-secondary">ALUMNI</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="50">0</span>+</p>
+          <p class="my-3 text-secondary">TENAGA PENDIDIK</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+        <p class="angka my-3 display-3 fw-semibold"><span data-count="36">0</span>+</p>
+        <p class="my-3 text-secondary">MITRA KAMI</p>
+        </div>
       </div>
     </div>
   </div>
   <!-- akhir sekilas -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- JS -->
+  
+  <script src="../JSAsset/profil.js"></script>
+
+  <!-- akhir JS -->
   </body>
 </html>

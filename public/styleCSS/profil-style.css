@@ -1,3 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .text {
     text-align: justify;
 }
@@ -34,4 +40,10 @@ p {
     font-weight: 700;
     font-style: normal;
     color: #333;
+}
+
+.angka {
+    font-family: 'EB Garmond';
+    font-weight: 700;
+    color: #33b412;
 }

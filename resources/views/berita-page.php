@@ -7,13 +7,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-        .carousel-caption {
-            background-color: rgba(0, 128, 0, 0.7); /* Green background with opacity */
-            padding: 20px;
-            border-radius: 10px;
-        }
-    </style>
+ 
 </head>
 <body>
 
@@ -27,7 +21,7 @@
             <p class="text-secondary">Beragam informasi terkini terkait Yayasan Masjid Mujahidin Surabaya</p>
         </div>
 
-        <div class="col bg-dark">
+        <div class="col">
             <img class="float-end" src="../img/Logo Muhammadiyah.png" alt="">
         </div>
     </div>
@@ -36,41 +30,40 @@
 <!-- akhir topik -->
 
 <!-- berita -->
-
 <div class="container">
   <div class="row">
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>
-    <div class="col">
-      <img src="../img/1.png" class="rounded-4 my-3" alt="">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+      <img src="../img/1.png" class="rounded-4 my-3 img-fluid" alt="">
       <p class="my-3">ini judul</p>
       <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!</p>
     </div>

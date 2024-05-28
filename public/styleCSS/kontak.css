@@ -1,7 +1,103 @@
 .text-dani {
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    columns: #666;
+    line-height: 2em;
+    font-size: 16px;
 }
 
 #ijo {
     background-color: #33b412;
+}
+
+#surel {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #00b413;
+    font-style: normal;
+    line-height: 1.5em
+}
+
+#kirim {
+    font-family: 'EB Garamond', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #333;
+    
+}
+
+#kirim-ijo{
+    font-family: 'EB Garamond', serif;
+    line-height: 1.7em;
+}
+
+#exampleFormControlInput1 {
+    height: 60px;
+    background-color: rgb(224, 223, 223);
+}
+
+#exampleFormControlTextarea1{
+    background-color: rgb(224, 223, 223);
+}
+
+.panjang {
+    font-family: 'Poppins', sans-serif;
+    
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pendek {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.faq {
+    font-family: 'EB Garamond', serif;
+    color: #00b413;
+    
+}
+
+.btn {
+    background-color: #00b413;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+}
+
+.accordion {
+    background-color: #00b413;
+    padding: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-left: 16px;
+    transition: transform 0.2s;
+}
+
+.icon.active {
+    transform: rotate(-180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.answer.active {
+    max-height: 200px; /* or set to a value that fits your content */
 }
