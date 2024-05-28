@@ -1,0 +1,231 @@
+body{
+  font-family: Open Sans, Arial, sans-serif;
+  line-height: 1.7em;
+  color: #666;
+}
+
+.img-logo{
+    margin-left: 10px;
+}
+  @media all and (min-width: 992px) {
+    .navbar .dropdown-menu-start{ right:0; left: auto;  }
+    .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+    .navbar .nav-item:hover .nav-link{ color: #fff;  }
+    .navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+    .navbar .dropdown-menu.fade-up{ top:180%;  }
+    .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+  }
+
+  .nav{
+    font-weight: 600;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .dropstart .dropdown-toggle {
+    margin-right: 1em;
+  }
+  .dropdown-item:hover {
+    color: #fff;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropstart:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-right: 0.125em;
+  }
+  @media screen and (min-width: 769px) {
+    .dropstart:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      right: 100%;
+    }
+    .dropstart .dropdown-toggle {
+      margin-right: 0.5em;
+    }
+  }
+  
+
+  ul li a {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.nav li {
+  position: relative;
+  line-height: 1em;
+}
+
+.custom-ol {
+  list-style-type: none;
+  counter-reset: item;
+}
+.custom-ol li {
+  position: relative;
+  margin-bottom: .5rem;
+  padding-left: 1.75rem;
+}
+.custom-ol li::before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  line-height: 1;
+  color: #444444; 
+}
+
+div.card {
+  box-shadow: 8px 8px 10px 10px rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  text-align: center;
+}
+
+  .footer {
+  background-color: #018947;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.f-section {
+  margin-bottom: 20px; 
+}
+
+.f-row {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text i {
+  margin-right: 5px;
+}
+
+.icon-text span {
+  margin-left: 5px;
+}
+
+.btn .effect{
+  position: relative;
+  display: inline-block;
+  background-color: #0c7fd1;
+}
+
+.effect {
+    font-weight: 500;
+    padding: 0.3em 1em;
+    line-height: 1.7em !important;
+    color: white;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 1px #0c7fd1;
+    border-radius: 3px;
+    transition: all 300ms ease;
+    position: relative;
+}
+
+.effect.effect-1:before {
+  content: "\f095";
+  font-family: FontAwesome;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 115px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  transition: opacity 300ms ease;
+}
+
+.effect.effect-1:hover {
+  padding-right: 35px;
+}
+
+.effect.effect-1:hover:before {
+  opacity: 1;
+}
+
+.effect.effect-2:before {
+  content: "\f103";
+  font-family: FontAwesome;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 120px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  transition: opacity 300ms ease;
+}
+
+.effect.effect-2:hover {
+  padding-right: 35px;
+}
+
+.effect.effect-2:hover:before {
+  opacity: 1;
+}
+
+.effect.effect-3:before {
+  content: ">>";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 140px;
+  top: 50%;
+  color: white;
+  transform: translateY(-50%);
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  transition: opacity 300ms ease;
+}
+
+.effect.effect-3:hover {
+  padding-right: 35px;
+}
+
+.effect.effect-3:hover:before {
+  opacity: 1;
+}
+
+.effect.effect-3{
+  background-color: #018947;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.garis_vertikal{
+  border-left: 1px #ddd solid;
+  height: 100%;
+  }
