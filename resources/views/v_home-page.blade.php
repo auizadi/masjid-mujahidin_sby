@@ -134,7 +134,7 @@
                           <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
                             <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024</h5>
+                              <h5 class="card-title fw-semibold text-dark"><a href="/detailberita">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024</a></h5>
                               <p class="card-text">by Masdinn | May 27, 2024 | Uncategorized</p>
                               <p class="card-text">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024 Surabaya, 26 Mei 2024 - SMA Mujahidin...</p>
                             </div>
@@ -144,7 +144,7 @@
                           <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
                             <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya</h5>
+                              <h5 class="card-title fw-semibold text-dark">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya</h5>
                               <p class="card-text">by Masdinn | May 8, 2024 | Uncategorized</p>
                               <p class="card-text">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya Yayasan Masjid Mujahidin Surabaya kembali menorehkan...</p>
                             </div>
@@ -154,7 +154,7 @@
                             <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
                               <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Kajian Safari Dakwah Bunda Astrie Ivo Semarak di Masjid Mujahidin Surabaya</h5>
+                                <h5 class="card-title fw-semibold text-dark"><a href=""> Safari Dakwah Bunda Astrie Ivo Semarak di Masjid Mujahidin Surabaya</a></h5>
                                 <p class="card-text">by Masdinn | May 7, 2024 | Uncategorized</p>
                                 <p class="card-text">Surabaya, 7 Mei 2024 – Senin pagi di cuaca yag cerah, Masjid Mujahidin Surabaya diramaikan dengan Kajian Safari Dakwah...</p>
                               </div>
