@@ -20,7 +20,9 @@
      <!--Favicon-->
      <link rel="shortcut icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
      <link rel="icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
- 
+     <link rel="stylesheet" href="">
+
+     
   </head>
   <body>
 
@@ -35,7 +37,7 @@
         
     </main>
 
-    <section style="position: relative;">
+    <section style="position: relative; margin-top:100px;">
         <img src="{{ asset('img') }}/overlay_background.png" class="img-fluid" alt="Footer Image" style="width: 100%; height: auto;">
 
         <!-- Overlay -->

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    font-family: 'EB Garamond',Georgia, "Times New Roman", serif;
+    line-height: 1.5em;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+#sub {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+    color: #666;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #33b412 !important;
+}
+
+h2 {
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 40px;
+    
+    color: #333;
+    line-height: 1.7em;
+    padding-bottom: 10px;
+    
+}
+
+.judul {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.judul:hover {
+    color: #333;
+}
+
+.isi {
+    text-align: justify;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    line-height: 1.8em;
+}
+
+.tgl {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00933e !important;
+    letter-spacing: 0.1em;
+}
+
+.tgl a {
+    text-decoration: none;
+    color: #00933e !important;
+    letter-spacing: 0.1em;
+}
+
+.more {
+    text-decoration: none;
+    color: #00933e !important;
+    letter-spacing: 0.1em;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    
+}

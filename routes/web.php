@@ -13,6 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/kontak', function () {
     return view('kontak-page');
+});
+Route::get('/', function () {
+    return view('v_home-page');
+});
+
+Route::get('/profil', function () {
+    return view('profil-page');
+});
+
+Route::get('/bidang', function () {
+    return view('v_bidang-page');
+});
+
+Route::get('/detailberita', function () {
+    return view('v_detailberita-page');
+});
+Route::get('/berita', function () {
+    return view('berita-page');
 });
