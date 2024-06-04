@@ -55,7 +55,7 @@
 
 </script>
 
-  <ul class="nav nav-pills align-items-center">
+  {{-- <ul class="nav nav-pills align-items-center">
     <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
     <li class="nav-item"><a href="/profil" class="nav-link">Profil</a></li>
     <li class="nav-item dropdown">
@@ -96,4 +96,4 @@
 </header>
 
 
-</header>
+</header> --}}
