@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="{{ asset('styleCSS/berita.css') }}">
 <!-- topik -->
     
-<div class="container-fluid my-5">
+<div class="container-fluid ">
   <div class="row align-self-center justify-content-center">
     <div class="col-12 col-md-6" >
       <h1>Berita Terkini</h1>
