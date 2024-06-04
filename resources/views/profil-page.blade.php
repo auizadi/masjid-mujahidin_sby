@@ -11,9 +11,9 @@
     <!-- akhir font -->
     
    
-  <div class="container-fluid mt-4">
+  <div class="container-fluid">
     <div class="row align-self-center justify-content-center">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 p-5">
         <h1>Profil Yayasan Mujahidin Surabaya</h1>
         <p id="sub">Membangun Harmoni, Menebar Kasih, Menyongsong Kemajuan Bersama Umat.</p>
       </div>
@@ -24,7 +24,7 @@
   </div>
 
   <!-- deskripsi -->
-  <div class="container-md p-2">
+  <div class="condes container-md">
     <div class="row justify-content-center g-5">
       <div class="col-12 col-lg-6">
         <h4 class="ijo my-4" style="letter-spacing: 3px;">SEJARAH SINGKAT</h4>
@@ -46,7 +46,7 @@
         </p>
       </div>
       <div class="col-12 col-lg-6 text-center">
-        <img src="../img/profile.png" alt="Profile" class="img-fluid">
+        <img src="{{ asset('img/profile.png') }}" alt="Profile" class="img-fluid">
       </div>
     </div>
   </div>

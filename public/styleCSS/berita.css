@@ -79,3 +79,19 @@ h2 {
     font-weight: 700;
     
 }
+
+.next {
+    margin-top: 100px;
+    cursor: pointer;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    
+}
+
+.next a {
+    text-decoration: none;
+    color: #4449E0 !important;
+    
+}
+

@@ -88,6 +88,46 @@ div.card {
   text-align: center;
 }
 
+
+.f-atas h1 {
+  font-family: 'EB Garamond', "Times New Roman", serif;
+  color: #333;
+
+}
+
+.f-atas h5 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 22px;
+    font-weight: 800;
+    
+  }
+  h5 {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  h1 {
+    font-size: 18px;
+    font-weight: 800;
+    
+  }
+  h5 {
+    font-size: 14px;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  
+} */
   .footer {
   background-color: #018947;
   color: #fff;
@@ -102,7 +142,7 @@ div.card {
 .f-row {
   padding-top: 20px;
   padding-bottom: 5px;
-  padding-left: 100px;
+  padding-left: 200px;
 }
 
 

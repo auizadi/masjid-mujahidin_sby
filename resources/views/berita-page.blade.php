@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="{{ asset('styleCSS/berita.css') }}">
 <!-- topik -->
     
-<div class="container-fluid mt-4">
+<div class="container-fluid my-5">
   <div class="row align-self-center justify-content-center">
     <div class="col-12 col-md-6" >
       <h1>Berita Terkini</h1>
@@ -26,6 +26,7 @@
 
 <!-- berita -->
 <div class="container">
+  
   <h4 class="text-center my-3">KUMPULAN INFORMASI TERKINI</h4>
   <h2 class="text-center my-3">Yayasan Masjid Mujahidin Surabaya</h2>
   <div class="row mt-2 g-5">
@@ -121,7 +122,11 @@
     </div>
    
     
+    
   </div>
+    <div class="next">
+        <a href="#"><i class="fa-solid fa-angles-left" style="color: #4449E0; margin-right: 5px;"></i>Older Entries</a>
+    </div>
 </div>
 
 <!-- akhir berita -->

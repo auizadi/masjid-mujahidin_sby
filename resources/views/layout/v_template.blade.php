@@ -17,6 +17,11 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    
      <!--Favicon-->
      <link rel="shortcut icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
      <link rel="icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
@@ -44,16 +49,16 @@
         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="f-atas col-md-12">
                         <div class="p-2">
-                            <h1 class="text-dark fw-bold">Beri Saran Untuk Kami</h1>
+                            <h1 class=" text-dark fw-bold">Beri Saran Untuk Kami</h1>
                             <div class="col-md-8">
                             <h5 class="text-dark fw-semibold">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada 
                                 <a href="kontak@masjidmujahidin-sby.or.id" class="text-primary">admin@masjidmujahidin-sby.or.id</a> atau melalui nomor telepon 
                                 <a href="https://www.google.com/search?q=masjid+yayasan+mujahidin&oq=masjid+yayasan+mujahidin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPDIGCAQQLhhA0gEJMTIwMDlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8#" class="text-primary">(031) 3291823</a></h5>
                             </div>
                             <div class="button-effect">
-                            <a href="/kontak" class="btn btn-primary effect effect-1 fw-bold">Kontak Kami</a>
+                            <a href="/kontak" class="btn btn-primary effect effect-1 fw-bold ">Kontak Kami</a>
                             </div>
                         </div>
                     </div>

@@ -18,14 +18,30 @@
       referrerpolicy="no-referrer"/>
     <!-- akhir icon -->
     
+
+
+    {{-- atas --}}
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 p-5">
+          <h1 id="h1atas">Kontak Kami</h1>
+          <p id="patas">Bantu kami agar selalu menjadi lebih baik</p>
+        </div>
+        <div class="col-md-6">
+          <img src="{{ asset('img/bahan.jpeg') }}" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    
 <!-- Kotak Saran -->
-  <div class="container-md rounded-4 shadow-lg my-4">
+  <div class="surel container-md rounded-4 shadow-lg">
     <div class="row">
       <div class="col-lg-8 col-md-12" >
         <p class=" m-3 fs-4" id="surel">Surel Kami</p>
         <h2 class="m-3 display-6" id="kirim">Kirim Pesan pada Kami</h2>
 
-      <div class="container-md">
+      <div class="container">
         <div class="row">
           <div class="col-md-6 mb-3">
             <div class="mb-3">
@@ -47,7 +63,7 @@
 
           <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end my-3">
 
-            <button class="btn fw-bold display-5 rounded-pill" type="button">KIRIM PESAN</button>
+            <button class="button fw-bold display-5 rounded-pill text-center" type="button"><span class="text-center">KIRIM PESAN</span></button>
           </div>
         </div>
       </div>
@@ -72,11 +88,11 @@
 <!-- akhir Kotak Saran -->
 
 <!-- FAQ -->
-<div class="container my-4">
+<div class="confaq container-md">
       <div class="row">
 
         <div class="col-md-6">
-          <img src="../img/FAQ.png" alt="" style="width: 500px;">
+          <img src="{{ asset('img/FAQ.png') }}" alt="" style="width: 500px;" class="img-fluid">
           <h2 class="faq display-5 my-3">Frequently Ask Question</h2>
           <p class="text-dani">Berisi beberapa pertanyaan yang sering diajukan beserta jawabannya untuk memberikan pemahaman yang lebih baik kepada Anda. Hal ini merupakan sumber informasi yang komprehensif untuk menjawab pertanyaan umum dan membantu mengatasi kebingungan yang mungkin muncul. Dalam sebuah FAQ ini, Anda dapat menemukan informasi terkait proses, kebijakan, atau layanan, yang mempermudah akses informasi yang dibutuhkan tanpa perlu menghubungi langsung pihak terkait.</p>
         </div>

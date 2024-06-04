@@ -4,9 +4,11 @@ body {
     box-sizing: border-box;
 }
 
+
 .text {
     text-align: justify;
 }
+
 .text-deskripsi {
     text-align: justify;
 }
@@ -72,3 +74,15 @@ p {
     opacity: 1;
   }
   
+  .condes {
+    margin-top: 100px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .ijo {
+        text-align: center;
+    }
+    .condes h2 {
+        text-align: center;
+    }
+  }
