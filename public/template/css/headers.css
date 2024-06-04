@@ -30,3 +30,21 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+
+.nav-link.active {
+  color: green !important;
+}
+
+
+.dropdown-item a{
+  text-decoration: none;
+  
+}
+
+.dropdown-item {
+  margin-bottom: 10px;
+}
+
+
+

@@ -1,43 +1,34 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Profil | Masjid Mujahidin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styleCSS/profil-style.css">
+@extends('layout.v_template')
+@section('content')
+
+
+
+    <link rel="stylesheet" href="{{ asset('styleCSS/profil-style.css') }}">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <!-- akhir font -->
-    <style>
-      .img-responsive {
-        width: 100%;
-        height: auto;
-      }
-    </style>
-  </head>
-  <body>
+    
    
-  <div class="container-fluid mt-4">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 text-center text-md-start">
+  <div class="container-fluid">
+    <div class="row align-self-center justify-content-center">
+      <div class="col-12 col-md-6 p-5">
         <h1>Profil Yayasan Mujahidin Surabaya</h1>
-        <h4>Membangun Harmoni, Menebar Kasih, Menyongsong Kemajuan Bersama Umat.</h4>
+        <p id="sub">Membangun Harmoni, Menebar Kasih, Menyongsong Kemajuan Bersama Umat.</p>
       </div>
       <div class="col-12 col-md-6 text-center text-md-end">
-        <img src="../img/Logo Muhammadiyah.png" alt="Logo Muhammadiyah" class="img-thumbnail">
+        <img src="{{ asset('img/bahan.jpeg') }}" alt="" class="img-responsive">
       </div>
     </div>
   </div>
 
   <!-- deskripsi -->
-  <div class="container-md p-2">
+  <div class="condes container-md">
     <div class="row justify-content-center g-5">
       <div class="col-12 col-lg-6">
-        <h4 class="ijo my-3 fw-bold">SEJARAH SINGKAT</h4>
-        <h2 class="my-3">Yayasan Mujahidin Surabaya</h2>
+        <h4 class="ijo my-4" style="letter-spacing: 3px;">SEJARAH SINGKAT</h4>
+        <h2 class="my-3 display-5"  id="story">Yayasan Mujahidin Surabaya</h2>
         <p class="text">
         Yayasan Masjid Mujahidin Surabaya memiliki sejarah yang kaya dan berakar dalam semangat kebersamaan dan keteguhan. Berdiri pada tahun [tahun berdiri], yayasan ini lahir dari tekad masyarakat Surabaya untuk memiliki pusat ibadah dan pusat kegiatan Islami yang berkualitas.
         </p>
@@ -55,7 +46,7 @@
         </p>
       </div>
       <div class="col-12 col-lg-6 text-center">
-        <img src="../img/profile.png" alt="Profile" class="img-fluid">
+        <img src="{{ asset('img/profile.png') }}" alt="Profile" class="img-fluid">
       </div>
     </div>
   </div>
@@ -63,32 +54,33 @@
   <!-- akhir deskripsi -->
 
   <!-- penjelasan -->
-  <div class="container-md">
+  <div class="kolom-3 container-md mt-5">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-4 text-center mb-4">
-        <img src="../img/1.png" alt="" class="my-3 img-fluid">
+      <div class="col-12 col-md-4 text-center mb-4 fade-in">
+        <img src="{{ asset('img/1.png') }}" alt="" class="my-3 img-fluid">
         <h3 class="fw-bold">Pendidikan Berkualitas</h3>
         <p class="text-deskripsi">Yayasan ini menawarkan program pendidikan yang berkualitas, baik di tingkat dasar, menengah, maupun tinggi. Program pendidikan yang terintegrasi dengan nilai-nilai keislaman & pengembangan berkarakter.</p>
       </div>
-     
-      <div class="col-12 col-md-4 text-center mb-4">
-        <img src="../img/2.png" alt="" class="my-3 img-fluid">
+  
+      <div class="col-12 col-md-4 text-center mb-4 fade-in">
+        <img src="{{ asset('img/2.png') }}" alt="" class="my-3 img-fluid">
         <h3 class="fw-bold">Pusat Kegiatan Islami</h3>
         <p class="text-deskripsi">Sebagai landasan bagi Masjid Mujahidin Surabaya, yayasan ini menjadi pusat kegiatan Islami yang menyelenggarakan berbagai kegiatan keagamaan seperti kajian, pengajian, dan pelatihan keIslaman.</p>
       </div>
-
-      <div class="col-12 col-md-4 text-center mb-4">
-        <img src="../img/3.png" alt="" class="my-3 img-fluid">
+  
+      <div class="col-12 col-md-4 text-center mb-4 fade-in">
+        <img src="{{ asset('img/3.png') }}" alt="" class="my-3 img-fluid">
         <h3 class="fw-bold">Sinergi Pendidikan & Sosial</h3>
         <p class="text-deskripsi">Selain pendidikan, yayasan juga memperhatikan aspek sosial masyarakat. Program pemberdayaan & bantuan kemanusiaan menjadi bukti nyata komitmen yayasan terhadap keseimbangan pendidikan & kepedulian sosial.</p>
       </div>
     </div>
   </div>
+  
 
   <!-- akhir penjelasan -->
 
   <!-- sekilas -->
-  <div class="container rounded-3 bg-light my-4 shadow-lg p-4 mb-4">
+  <div class="container rounded-3 bg-light my-4 shadow-lg p-4 mb-5">
     <div class="row">
       <div class="col-12 col-lg-6">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/wtBr_Taex_0?si=LZXDC2HeOQ3Clg63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -101,25 +93,38 @@
     </div>
     <div class="row my-4">
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="400">0</span>+</p>
+          <p class="my-3 text-secondary">SISWA SISWI</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="1000">0</span>+</p>
+          <p class="my-3 text-secondary">ALUMNI</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+          <p class="angka my-3 display-3 fw-semibold"><span data-count="50">0</span>+</p>
+          <p class="my-3 text-secondary">TENAGA PENDIDIK</p>
+        </div>
       </div>
       <div class="col-6 col-md-3 text-center">
-        <p class="my-3 display-3 text-success fw-semibold">400+</p>
-        <p class="my-3 text-secondary">SISWA SISWI</p>
+        <div class="counter">
+        <p class="angka my-3 display-3 fw-semibold"><span data-count="36">0</span>+</p>
+        <p class="my-3 text-secondary">MITRA KAMI</p>
+        </div>
       </div>
     </div>
   </div>
   <!-- akhir sekilas -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+  
+  <script src="{{ asset('JSAsset/profil.js') }}"></script>
+
+  <!-- akhir JS -->
+
+
+@endsection
