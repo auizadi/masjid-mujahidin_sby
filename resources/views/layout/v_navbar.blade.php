@@ -3,7 +3,8 @@
     <img src="{{'img'}}/logo_masjid_mujahidin_png.png" class="img-logo" alt="Logo" width="50" height="50">
 </div>
 
-<<<<<<< HEAD
+
+
 <ul class="nav nav-pills align-items-center" id="navbar">
   <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Home</a></li>
   <li class="nav-item"><a href="/profil" class="nav-link">Profil</a></li>
@@ -53,7 +54,7 @@
 });
 
 </script>
-=======
+
   <ul class="nav nav-pills align-items-center">
     <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
     <li class="nav-item"><a href="/profil" class="nav-link">Profil</a></li>
@@ -91,5 +92,8 @@
     <li class="nav-item"><a href="/berita" class="nav-link">Berita</a></li>
     <li class="nav-item"><a href="/kontak" class="nav-link">Kontak</a></li>
   </ul>
+
 </header>
->>>>>>> 41231a3403d0dc3f0085c06b6f52b50600336d3f
+
+
+</header>

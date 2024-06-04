@@ -2,6 +2,8 @@
 @section('content')
 
 
+
+
         <section class="bg-detail">
             <div class="row">
                     <h1 class="text-light fw-bold" style="line-height: 2;">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024</h1>
@@ -118,5 +120,6 @@
             </div>
         </div>
         
+
 
 @endsection

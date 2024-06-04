@@ -18,8 +18,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('v_home-page');
 });
+
 Route::get('/kontak', function () {
     return view('kontak-page');
+});
+
+Route::get('/profil', function () {
+    return view('v_profil-page');
+});
+
+Route::get('/bidang', function () {
+    return view('v_bidang-page');
+});
+
+Route::get('/detailberita', function () {
+    return view('v_detailberita-page');
+
 });
 
 Route::get('/profil', function () {

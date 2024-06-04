@@ -90,6 +90,7 @@ div.card {
 
 
 
+
 .f-atas h1 {
   font-family: 'EB Garamond', "Times New Roman", serif;
   color: #333;
@@ -145,7 +146,11 @@ div.card {
   padding-top: 20px;
   padding-bottom: 5px;
 
+
   padding-left: 200px;
+
+  padding-left: 100px;
+
 
   padding-left: 100px;
 
@@ -175,8 +180,7 @@ div.card {
     font-weight: 500;
     padding: 0.3em 1em;
     line-height: 1.7em !important;
-
-    color: white;
+   
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -186,6 +190,10 @@ div.card {
     background-position: 50%;
     background-repeat: no-repeat;
 
+
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     border-radius: 3px;
     transition: all 300ms ease;
     position: relative;
@@ -269,6 +277,8 @@ div.card {
 
 
 
+
+
 .effect.effect-4:before {
   content: ">";
   position: absolute;
@@ -311,6 +321,8 @@ div.card {
   border-left: 1px #ddd solid;
   height: 100%;
   }
+
+
 
 
   section.bg-detail{
@@ -381,4 +393,6 @@ textarea.input--style-5{
   line-height: 50px;
   border: none;
 }
+
+
 
