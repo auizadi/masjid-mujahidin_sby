@@ -1,6 +1,6 @@
 @extends('layout.v_template')
 @section('content')
-
+{{-- tes linux --}}
 {{-- hero --}}
 <div class="container-fluid">
     <div class="row">
@@ -15,7 +15,7 @@
                                 <h1 class="text-light fw-bold">Selamat Datang di Website</h1>
                                 <h1 class="text-light fw-bold">Yayasan Masjid Mujahidin Surabaya</h1>
                                 <div class="col-md-8">
-                                    <h4 class="text-light fw-semibold pt-4 pb-4">Merupakan lembaga yang mendukung & mengelola berbagai kegiatan keagamaan, sosial, dan pendidikan di wilayah Surabaya.</h4> 
+                                    <h4 class="text-light fw-semibold pt-4 pb-4">Merupakan lembaga yang mendukung & mengelola berbagai kegiatan keagamaan, sosial, dan pendidikan di wilayah Surabaya.</h4>
                                 </div>
                                 <div class="button-effect">
                                     <a href="" class="btn btn-light effect effect-2 text-dark fw-bold">Take The Tour</a>
@@ -36,14 +36,14 @@
             <h5 class="text-success text-uppercase fw-bold">Sambutan singkat</h5>
             <h2 class="text-dark text-uppercase fw-bold pt-3">ketua yayasan mujahidin surabaya</h2>
             <p class="text-secondary pt-2"> Assalamu’alaikum Warahmatullahi Wabarakatuh para jamaah yang dirahmati Allah SWT.</br>
-            </br>Alhamdulillah, puji syukur kehadirat Allah SWT atas segala nikmat dan karunia-Nya, 
-            sehingga kita dapat bersilaturahmi secara virtual melalui peluncuran website resmi Masjid 
-            Mujahidin Surabaya. Website ini hadir sebagai wujud komitmen kami untuk semakin dekat dengan 
+            </br>Alhamdulillah, puji syukur kehadirat Allah SWT atas segala nikmat dan karunia-Nya,
+            sehingga kita dapat bersilaturahmi secara virtual melalui peluncuran website resmi Masjid
+            Mujahidin Surabaya. Website ini hadir sebagai wujud komitmen kami untuk semakin dekat dengan
             para jamaah dan masyarakat luas.
-            </br> Masjid Mujahidin Surabaya tidak hanya berfungsi sebagai tempat ibadah, namun juga sebagai 
-            wadah untuk menyebarkan nilai-nilai Islam, serta berkontribusi aktif dalam bidang pendidikan 
-            dan sosial kemasyarakatan. Melalui website ini, kami ingin mempermudah akses informasi 
-            mengenai berbagai aktivitas dan program yang kami jalankan, baik di masjid, lembaga amal, 
+            </br> Masjid Mujahidin Surabaya tidak hanya berfungsi sebagai tempat ibadah, namun juga sebagai
+            wadah untuk menyebarkan nilai-nilai Islam, serta berkontribusi aktif dalam bidang pendidikan
+            dan sosial kemasyarakatan. Melalui website ini, kami ingin mempermudah akses informasi
+            mengenai berbagai aktivitas dan program yang kami jalankan, baik di masjid, lembaga amal,
             maupun lembaga pendidikan yang berada di bawah naungan yayasan kami.</br>
             </br> Website ini akan menampilkan berbagai informasi, seperti : </br>
             <ol class="custom-ol">
@@ -69,17 +69,17 @@
         </div>
         <div class="col-md-12">
             <p class="text-secondary">
-                Kami senantiasa berupaya untuk terus mengembangkan website ini agar dapat 
-                memberikan manfaat yang lebih besar kepada para jamaah dan masyarakat. 
-                Mohon dukungan dan doa dari para jamaah agar website ini dapat menjadi 
-                sarana kebaikan yang berkelanjutan. Akhir kata, jazakumullahu khairan 
-                katsiran kepada semua pihak yang telah berkontribusi dalam pembuatan 
-                website ini. Semoga Allah SWT senantiasa melimpahkan rahmat dan hidayah-Nya 
+                Kami senantiasa berupaya untuk terus mengembangkan website ini agar dapat
+                memberikan manfaat yang lebih besar kepada para jamaah dan masyarakat.
+                Mohon dukungan dan doa dari para jamaah agar website ini dapat menjadi
+                sarana kebaikan yang berkelanjutan. Akhir kata, jazakumullahu khairan
+                katsiran kepada semua pihak yang telah berkontribusi dalam pembuatan
+                website ini. Semoga Allah SWT senantiasa melimpahkan rahmat dan hidayah-Nya
                 kepada kita semua. Aamiin yaa rabbal ‘alamiin.</br> </br>
                 Wassalamu’alaikum Warahmatullahi Wabarakatuh.
             </p>
         </div>
-    
+
     {{--  --}}
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 mb-2">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-12 col-md-4 mb-2">
                 <div class="text-center p-3">
                     <img src="{{ asset('img') }}/2.png" alt="" class="my-3 img-fluid mx-auto d-block">
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-12 col-md-4 mb-2">
                 <div class="text-center p-3">
                     <img src="{{ asset('img') }}/3.png" alt="" class="my-3 img-fluid mx-auto d-block">
@@ -170,7 +170,7 @@
         </div>
 
     </div>
-</div>    
+</div>
 
 
 @endsection
