@@ -88,49 +88,6 @@ div.card {
   text-align: center;
 }
 
-
-
-
-.f-atas h1 {
-  font-family: 'EB Garamond', "Times New Roman", serif;
-  color: #333;
-
-}
-
-.f-atas h5 {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5em;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: justify;
-}
-
-/* @media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 22px;
-    font-weight: 800;
-    
-  }
-  h5 {
-    font-size: 14px;
-    text-align: justify;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  h1 {
-    font-size: 18px;
-    font-weight: 800;
-    
-  }
-  h5 {
-    font-size: 14px;
-    text-align: justify;
-    margin-right: 20px;
-  }
-  
-} */
-
   .footer {
   background-color: #018947;
   color: #fff;
@@ -145,15 +102,7 @@ div.card {
 .f-row {
   padding-top: 20px;
   padding-bottom: 5px;
-
-
-  padding-left: 200px;
-
   padding-left: 100px;
-
-
-  padding-left: 100px;
-
 }
 
 
@@ -180,17 +129,6 @@ div.card {
     font-weight: 500;
     padding: 0.3em 1em;
     line-height: 1.7em !important;
-   
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    border: 1px #0c7fd1;
-
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-
-
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -275,10 +213,6 @@ div.card {
   background-color: #018947;
 }
 
-
-
-
-
 .effect.effect-4:before {
   content: ">";
   position: absolute;
@@ -321,9 +255,6 @@ div.card {
   border-left: 1px #ddd solid;
   height: 100%;
   }
-
-
-
 
   section.bg-detail{
     width: 100%;
@@ -393,6 +324,3 @@ textarea.input--style-5{
   line-height: 50px;
   border: none;
 }
-
-
-
