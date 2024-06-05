@@ -20,6 +20,7 @@
      <!--Favicon-->
      <link rel="shortcut icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
      <link rel="icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
+     
  
   </head>
   <body>
@@ -37,21 +38,24 @@
 
     <section style="position: relative;">
         <img src="{{ asset('img') }}/overlay_background.png" class="img-fluid" alt="Footer Image" style="width: 100%; height: auto;">
-
+    
         <!-- Overlay -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-md-none" style="background-color: rgba(255, 255, 255, 0.63);"></div>
+    
+        <!-- Content -->
         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="p-2">
-                            <h1 class="text-dark fw-bold">Beri Saran Untuk Kami</h1>
-                            <div class="col-md-8">
-                            <h5 class="text-dark fw-semibold">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada 
-                                <a href="kontak@masjidmujahidin-sby.or.id" class="text-primary">admin@masjidmujahidin-sby.or.id</a> atau melalui nomor telepon 
-                                <a href="https://www.google.com/search?q=masjid+yayasan+mujahidin&oq=masjid+yayasan+mujahidin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPDIGCAQQLhhA0gEJMTIwMDlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8#" class="text-primary">(031) 3291823</a></h5>
+                        <div class="p-2 text-center text-md-start">
+                            <h1 class="text-dark fw-bold" style="font-size: min(3vw, 36px);">Beri Saran Untuk Kami</h1>
+                            <div class="col-md-8 mx-auto mx-md-0">
+                                <h5 class="text-dark fw-semibold" style="font-size: min(2vw, 18px);">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada 
+                                    <a href="mailto:kontak@masjidmujahidin-sby.or.id" class="text-primary">admin@masjidmujahidin-sby.or.id</a> atau melalui nomor telepon 
+                                    <a href="https://www.google.com/search?q=masjid+yayasan+mujahidin&oq=masjid+yayasan+mujahidin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPDIGCAQQLhhA0gEJMTIwMDlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8#" class="text-primary">(031) 3291823</a></h5>
                             </div>
                             <div class="button-effect">
-                            <a href="/kontak" class="btn btn-primary effect effect-1 fw-bold">Kontak Kami</a>
+                                <a href="/kontak" class="btn btn-primary effect effect-1 fw-bold">Kontak Kami</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +63,8 @@
             </div>
         </div>
     </section>
-
+    
+    
   <!-- Footer -->
   <footer class="text-lg-start text-white" style="background-color: #018947">
     <!-- Grid container -->
@@ -110,7 +115,7 @@
   <!-- Footer -->
 
     <script src="{{ asset('template') }}/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       
   </body>
 </html>
