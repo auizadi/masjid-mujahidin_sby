@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    
+
     font-family: 'EB Garamond', serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  
+
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -37,6 +37,8 @@ p {
     font-style: normal;
     line-height: 2em;
 }
+
+
 
 #story {
     font-family: 'EB Garamond', serif;
@@ -62,27 +64,27 @@ p {
 
 .kolom-3 {
     margin-bottom: 120px;
-    
+
 }
 
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in-out;
   }
-  
+
   .fade-in.visible {
     opacity: 1;
   }
-  
+
   .condes {
     margin-top: 100px;
   }
 
-  @media only screen and (max-width: 768px) {
-    .ijo {
+@media only screen and (max-width:576px){
+    #ijo1{
         text-align: center;
     }
-    .condes h2 {
+    #story1{
         text-align: center;
     }
-  }
+}

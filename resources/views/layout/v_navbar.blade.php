@@ -82,7 +82,7 @@
           <ul class="dropdown-menu">
             <li class="dropdown-item"><a href="#"></a>Lembaga Amal Mujahidin</li>
             <li class="dropdown-item"><a href="#"></a>UBO</li>
-            <li class="dropdown-item"><a href="#"></a>Suara Mujahidin Plus</li>            
+            <li class="dropdown-item"><a href="#"></a>Suara Mujahidin Plus</li>
           </ul>
     </li>
 			  <li><a class="dropdown-item" href="#"> Kesekretariatan</a></li>
