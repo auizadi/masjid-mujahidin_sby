@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Masjid Mujahidin | Yayasan Masjid Mujahidin</title>
+    <title>@yield('title', 'Masjid Mujahidin | Yayasan Masjid Mujahidin')</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('template') }}/css/bootstrap.min.css" rel="stylesheet">
@@ -13,35 +13,51 @@
     <!-- Custom styles for this template -->
     <link href="{{ asset('template') }}/css/style.css" rel="stylesheet">
     <link href="{{ asset('template') }}/css/headers.css" rel="stylesheet">
+    @yield('css')
 
+     <!-- icon -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"/>
+   
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <!-- akhir font -->
 
      <!--Favicon-->
      <link rel="shortcut icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
      <link rel="icon" href="{{ asset('img') }}/logo_masjid_mujahidin_png.png" type="image/x-icon">
-     
- 
+
+
   </head>
   <body>
 
     <main>
     <div class="container-fluid">
-        
+
         @include('layout.v_navbar')
 
     </div>
 
     @yield('content')
-        
+
     </main>
 
     <section style="position: relative;">
         <img src="{{ asset('img') }}/overlay_background.png" class="img-fluid" alt="Footer Image" style="width: 100%; height: auto;">
-    
+
         <!-- Overlay -->
         <div class="position-absolute top-0 start-0 w-100 h-100 d-md-none" style="background-color: rgba(255, 255, 255, 0.63);"></div>
-    
+
         <!-- Content -->
         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
             <div class="container">
@@ -50,8 +66,8 @@
                         <div class="p-2 text-center text-md-start">
                             <h1 class="text-dark fw-bold" style="font-size: min(3vw, 36px);">Beri Saran Untuk Kami</h1>
                             <div class="col-md-8 mx-auto mx-md-0">
-                                <h5 class="text-dark fw-semibold" style="font-size: min(2vw, 18px);">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada 
-                                    <a href="mailto:kontak@masjidmujahidin-sby.or.id" class="text-primary">admin@masjidmujahidin-sby.or.id</a> atau melalui nomor telepon 
+                                <h5 class="text-dark fw-semibold" style="font-size: min(2vw, 18px);">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada
+                                    <a href="mailto:kontak@masjidmujahidin-sby.or.id" class="text-primary">admin@masjidmujahidin-sby.or.id</a> atau melalui nomor telepon
                                     <a href="https://www.google.com/search?q=masjid+yayasan+mujahidin&oq=masjid+yayasan+mujahidin&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPDIGCAQQLhhA0gEJMTIwMDlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8#" class="text-primary">(031) 3291823</a></h5>
                             </div>
                             <div class="button-effect">
@@ -63,8 +79,8 @@
             </div>
         </div>
     </section>
-    
-    
+
+
   <!-- Footer -->
   <footer class="text-lg-start text-white" style="background-color: #018947">
     <!-- Grid container -->
@@ -116,6 +132,6 @@
 
     <script src="{{ asset('template') }}/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      
+
   </body>
 </html>

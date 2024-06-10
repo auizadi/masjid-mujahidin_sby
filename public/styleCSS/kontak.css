@@ -15,7 +15,12 @@
 
 #ijo {
     background-color: #33b412;
+    border-radius: 0 20px 20px 0;
+
 }
+
+
+
 
 #surel {
     font-family: 'Poppins', sans-serif;
@@ -31,7 +36,7 @@
     font-weight: 700;
     font-style: normal;
     color: #333;
-    
+
 }
 
 #kirim-ijo{
@@ -39,18 +44,11 @@
     line-height: 1.7em;
 }
 
-#exampleFormControlInput1 {
-    height: 60px;
-    background-color: rgb(224, 223, 223);
-}
 
-#exampleFormControlTextarea1{
-    background-color: rgb(224, 223, 223);
-}
 
 .panjang {
     font-family: 'Poppins', sans-serif;
-    
+
     font-style: normal;
     font-weight: bold;
 }
@@ -64,7 +62,7 @@
 .faq {
     font-family: 'EB Garamond', serif;
     color: #00b413;
-    
+
 }
 
 .button {
@@ -88,7 +86,7 @@
     transition: 0.5s;
   }
 
-  
+
 .button span {
     cursor: pointer;
     display: inline-block;
@@ -110,6 +108,7 @@
     margin-bottom: 16px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    border-radius: 20px ;
 }
 
 .question {
@@ -157,6 +156,7 @@
 
 .surel {
     margin-top: 150px ;
+    border-radius: 20px;
 }
 
 .confaq {
