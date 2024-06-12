@@ -24,34 +24,6 @@ Route::get('/kontak', function () {
 });
 
 Route::get('/profil', function () {
-    return view('v_profil-page');
-});
-
-Route::get('/bidang', function () {
-    return view('v_bidang-page');
-});
-
-Route::get('/detailberita', function () {
-    return view('v_detailberita-page');
-
-});
-
-Route::get('/profil', function () {
-    return view('v_profil-page');
-});
-
-Route::get('/bidang', function () {
-    return view('v_bidang-page');
-});
-
-Route::get('/detailberita', function () {
-    return view('v_detailberita-page');
-});
-Route::get('/', function () {
-    return view('v_home-page');
-});
-
-Route::get('/profil', function () {
     return view('profil-page');
 });
 
@@ -61,9 +33,11 @@ Route::get('/bidang', function () {
 
 Route::get('/detailberita', function () {
     return view('v_detailberita-page');
+
 });
+
+
 Route::get('/berita', function () {
     return view('berita-page');
+
 });
-
-
