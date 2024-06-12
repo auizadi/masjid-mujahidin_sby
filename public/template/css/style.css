@@ -20,8 +20,14 @@ body{
     font-weight: 600;
   }
 
+
+  .navbar-toggler-icon {
+    color: #018947;
+  }
   .navbar-nav .nav-link {
-    color: #fff;
+    color: black;
+    
+    font-size: 16px;
   }
   .dropstart .dropdown-toggle {
     margin-right: 1em;
@@ -180,6 +186,8 @@ div.card {
 .effect.effect-2:hover {
   padding-right: 35px;
 }
+
+
 
 .effect.effect-2:hover:before {
   opacity: 1;
