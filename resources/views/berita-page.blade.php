@@ -151,7 +151,7 @@
         <p class="tgl">MAY 27, 2024 | <a href="#">UNCATEGORIZED</a></p>
         <p class="isi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officiis reprehenderit repellendus numquam iusto deleniti veritatis modi quibusdam dolorum tenetur expedita deserunt impedit possimus, recusandae perspiciatis ab ut facere adipisci!...</p>
 
-        <a href="#" class="more">READ MORE</a>
+        <a href="#" class="more">READ MORE</a>{{ asset('img') }}/people.jpg
     </div>
     <div class="col-12 col-md-6 col-lg-4 col-xl-4">
         <a href="#" class="my-3"><img src="{{ asset('img/berita9.jpeg') }}" width="300px"  alt="" class="mb-4"> </a>

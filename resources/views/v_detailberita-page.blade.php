@@ -21,7 +21,7 @@
                 <h5 class="text-secondary fw-bold pt-3" style="line-height: 2;">Surabaya, 26 Mei 2024
                     <span class="fw-semibold"> – SMA Mujahidin Surabaya menggelar acara akhirussanah bagi para siswanya pada hari ini Ahad, 26 Mei 2024. Acara yang berlangsung di Hotel Arcadia Surabaya ini diawali dengan pembacaan ayat suci Al-Qur’an dan sambutan dari berbagai pihak, Kepala SMA Mujahidin, perwakilan wali murid kelas XII termasuk Ketua Yayasan Masjid Mujahidin.</span>
                     <div style="text-align: center;">
-                        <img src="{{ asset('img') }}/people.jpg" alt="Foto Sambutan" style="max-width: 100%; height: auto;">
+                        <img src="{{ asset('img') }}/berita9.jpeg" alt="Foto Sambutan" style="max-width: 100%; height: auto;">
                     </div>
                     <p class="fw-semibold">Acara kemudian dilanjutkan dengan penyerahan penghargaan kepada siswa berprestasi, baik akademik maupun non-akademik.</p>
                     <p class="fw-semibold">Puncak acara adalah pengalungan medali dan pemberian ijazah kepada seluruh siswa kelas XII. Suasana haru dan bahagia menyelimuti seluruh ruangan saat para siswa menerima ijazah mereka.</p>
@@ -29,13 +29,13 @@
 
                     <div class="row">
                         <div class="col-md-4 pt-2">
-                            <img src="{{ asset('img') }}/business.jpg" alt="" style="width: 100%;">
+                            <img src="{{ asset('img') }}/berita7.jpeg" alt="" style="width: 100%;">
                         </div>
                         <div class="col-md-4 pt-2">
-                            <img src="{{ asset('img') }}/business.jpg" alt="" style="width: 100%;">
+                            <img src="{{ asset('img') }}/berita7.jpeg" alt="" style="width: 100%;">
                         </div>
                         <div class="col-md-4 pt-2">
-                            <img src="{{ asset('img') }}/business.jpg" alt="" style="width: 100%;">
+                            <img src="{{ asset('img') }}/berita7.jpeg" alt="" style="width: 100%;">
                         </div>    
                     </div>
                     <p class="fw-semibold">Acara akhirussanah SMA Mujahidin Surabaya merupakan momen penting bagi para siswa dan sekolah. Acara ini berlangsung dengan meriah dan penuh makna.</p>
@@ -44,45 +44,45 @@
                         <span class="fw-bold">- CA</span>
                     </p>
                 </h5>
-                    <a href="https://masjidmujahidin-sby.or.id/prestasi-gemilang-siswa-yayasan-masjid-mujahidin-surabaya/"><p class="text-primary h5 fw-semibold">
+                    <a href="https://masjidmujahidin-sby.or.id/prestasi-gemilang-siswa-yayasan-masjid-mujahidin-surabaya/" class="text-decoration-none"><p class="text-primary h5 fw-semibold">
                         <i class="fa-solid fa-arrow-left-long"></i> Prev : Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya</p>
                     </a>
                     <div class="col-md-12 pt-5">
                         <h2 class="text-dark fw-bold pb-3">Mungkin anda juga suka . . .</h2>
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col mb-5">
-                                  <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
-                                    <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title fw-semibold text-dark"><a href="/detailberita">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024</a></h5>
-                                      <p class="card-text">by Masdinn | May 27, 2024 | Uncategorized</p>
-                                      <p class="card-text">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024 Surabaya, 26 Mei 2024 - SMA Mujahidin... </br> <a href="/detailberita" class="text-primary">read more</a></p>
-                                    </div>
-                                  </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col mb-5">
+                              <div class="card h-100 p-3 mb-2" style="margin: 30px;">
+                                <img src="{{ asset('img/berita1.jpg') }}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title fw-semibold text-dark"><a href="/detailberita" class="text-decoration-none">Kajian Ahad Pagi</a></h5>
+                                  <p class="card-text fw-semibold ">by Masdinn | Jun 1, 2024 | Uncategorized</p>
+                                  <p class="card-text"></p>
                                 </div>
-                                <div class="col mb-5">
-                                  <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
-                                    <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title fw-semibold text-dark">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya</h5>
-                                      <p class="card-text">by Masdinn | May 8, 2024 | Uncategorized</p>
-                                      <p class="card-text">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya Yayasan Masjid Mujahidin Surabaya kembali menorehkan...</br> <a href="/detailberita" class="text-primary">read more</a></p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col mb-5">
-                                    <div class="card h-100 p-3 mb-2" style="margin-right: 30px;">
-                                      <img src="{{ asset('img') }}/people.jpg" class="card-img-top" alt="...">
-                                      <div class="card-body">
-                                        <h5 class="card-title fw-semibold text-dark"><a href=""> Safari Dakwah Bunda Astrie Ivo Semarak di Masjid Mujahidin Surabaya</a></h5>
-                                        <p class="card-text">by Masdinn | May 7, 2024 | Uncategorized</p>
-                                        <p class="card-text">Surabaya, 7 Mei 2024 – Senin pagi di cuaca yag cerah, Masjid Mujahidin Surabaya diramaikan dengan Kajian Safari Dakwah...</br> <a href="/detailberita" class="text-primary">read more</a></p>
-                                      </div>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
+                            <div class="col mb-5">
+                                <div class="card h-100 p-3 mb-2" style="margin: 30px;">
+                                  <img src="{{ asset('img/berita3.jpg') }}" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title fw-semibold text-dark"><a href="/detailberita" class="text-decoration-none">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024</a></h5>
+                                  <p class="card-text fw-semibold ">by Masdinn | May 27, 2024 | Uncategorized</p>
+                                  <p class="card-text fw-semibold ">Liputan Acara Akhirussanah SMA MUJAHIDIN Surabaya Tahun Pelajaran 2023-2024 Surabaya, 26 Mei 2024 - SMA Mujahidin...</p>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="col mb-5">
+                              <div class="card h-100 p-3 mb-2" style="margin: 30px;">
+                                <img src="{{ asset('img/berita2.jpeg') }}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title fw-semibold text-dark"><a href="/detailberita" class="text-decoration-none">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya</a></h5>
+                                  <p class="card-text fw-semibold ">by Masdinn | May 8, 2024 | Uncategorized</p>
+                                  <p class="card-text fw-semibold ">Prestasi Gemilang Siswa Yayasan Masjid Mujahidin Surabaya Yayasan Masjid Mujahidin Surabaya kembali menorehkan...</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                     </div>     
-                    <a href="https://masjidmujahidin-sby.or.id/prestasi-gemilang-siswa-yayasan-masjid-mujahidin-surabaya/"><p class="text-primary fw-light">
+                    <a href="https://masjidmujahidin-sby.or.id/prestasi-gemilang-siswa-yayasan-masjid-mujahidin-surabaya/" class="text-decoration-none"><p class="text-primary fw-light">
                         <i class="fa-solid fa-angles-left"></i> Older Entries</p>
                     </a> 
                     <div class="col-md-12 pt-5">
