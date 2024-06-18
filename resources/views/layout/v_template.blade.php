@@ -63,7 +63,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="p-2 text-center text-md-start">
+                        <div class="p-2  text-md-start">
                             <h1 class="text-dark fw-bold" style="font-size: min(3vw, 36px);">Beri Saran Untuk Kami</h1>
                             <div class="col-md-8 mx-auto mx-md-0">
                                 <h5 class="text-dark fw-semibold" style="font-size: min(2vw, 18px);">Bantu kami untuk lebih baik lagi kedepannya dengan mengirimkan kritik dan saran yang membangun, melalui email kami pada
@@ -86,9 +86,9 @@
     <!-- Grid container -->
     <div class="container">
         <!--Grid row-->
-        <div class="row row-section mt-5">
+        <div class="row row-section m-3">
             <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 f-section">
+            <div class="col-lg-4 col-md-12 f-section">
                 <img src="{{'img'}}/logo_masjid_mujahidin_1_png.png" alt="" width="100%" height="auto">
                 <p class="text-justify">
                     <span style="display: inline-block; text-align: justify; font-size: 14px;">
@@ -99,7 +99,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 f-section">
+            <div class="col-lg-4 col-md-12 f-section">
                 <h5 class="mb-4 fw-bold">Kunjungi Kami:</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7916.4741121683055!2d112.733774!3d-7.213777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f8c477e1c719%3A0x8a265944e3b20099!2sMasjid%20Mujahidin!5e0!3m2!1sid!2sid!4v1716721787227!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -120,8 +120,8 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-white f-row" style="background-color: #017232">
-        <p class="mx-auto">
+    <div class="text-white f-row " style="background-color: #017232">
+        <p >
             © Copyright by Yayasan Mujahidin Surabaya
         </p>
     </div>

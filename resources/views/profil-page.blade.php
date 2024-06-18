@@ -13,20 +13,20 @@
 
   <div class="container-fluid">
     <div class="row align-self-center justify-content-center">
-      <div class="col-lg-6 col-md-12 col-sm-12 p-5 order-md-2 order-lg-1 order-2">
+      <div class="col-lg-6 col-md-12 col-12 p-5 order-md-2 order-lg-1 order-2">
         <h1>Profil Yayasan Mujahidin Surabaya</h1>
         <p id="sub">Membangun Harmoni, Menebar Kasih, Menyongsong Kemajuan Bersama Umat.</p>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 order-md-1 order-lg-2 order-1" >
+      <div class="col-lg-6 col-md-12 col-12 order-md-1 order-lg-2 order-1" >
         <img src="{{ asset('img/bahan.jpeg') }}" alt="" class="img-responsive">
       </div>
     </div>
   </div>
 
   <!-- deskripsi -->
-  <div class="condes container-md">
+  <div class="condes container">
     <div class="row justify-content-center g-5">
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-6 col-md-12">
         <h4 class="ijo my-4" style="letter-spacing: 3px;" id="ijo1">SEJARAH SINGKAT</h4>
         <h2 class="my-3 display-5"  id="story">Yayasan Mujahidin Surabaya</h2>
         <p class="text">
@@ -45,7 +45,7 @@
         Keberhasilan yayasan ini tidak terlepas dari dukungan dan partisipasi aktif masyarakat Surabaya yang turut serta membangun dan mendukung visi yayasan. Melalui perjalanan sejarahnya, Yayasan Masjid Mujahidin Surabaya terus menjadi pusat keberagaman, keberlanjutan, dan kebaikan bagi masyarakat setempat.
         </p>
       </div>
-      <div class="col-12 col-lg-6 text-center">
+      <div class="col-12 col-lg-6 col-md-12 text-center">
         <img src="{{ asset('img/profile.png') }}" alt="Profile" class="img-fluid">
       </div>
     </div>
@@ -54,7 +54,7 @@
   <!-- akhir deskripsi -->
 
   <!-- penjelasan -->
-  <div class="kolom-3 container-md mt-5">
+  <div class="kolom-3 container mt-5">
     <div class="row justify-content-center">
       <div class="col-lg-4 col-md-10 text-center mb-4 fade-in">
         <img src="{{ asset('img/1.png') }}" alt="" class="my-3 img-fluid">
@@ -82,35 +82,35 @@
   <!-- sekilas -->
   <div class="container rounded-3 bg-light my-4 shadow-lg p-4 mb-5">
     <div class="row">
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-6 col-md-12">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/wtBr_Taex_0?si=LZXDC2HeOQ3Clg63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-6 col-md-12">
         <h4 class="ijo my-2 fw-bold">SEKILAS TENTANG</h4>
         <p class="display-4" id="story">Cerita Kami</p>
         <p class="text">Yayasan Masjid Mujahidin Surabaya adalah cerminan kepedulian dan dedikasi kami untuk membentuk masyarakat yang berkualitas, berakhlak mulia, dan berdaya saing. Berawal dari tekad kuat dan semangat berbagi, kami memulai perjalanan kami di kota Surabaya.</p>
       </div>
     </div>
-    <div class="row my-4">
-      <div class="col-6 col-md-6 text-center">
+    <div class="row ">
+      <div class="col-lg-3 col-6 col-md-6 text-center">
         <div class="counter">
           <p class="angka my-3 display-3 fw-semibold"><span data-count="400">0</span>+</p>
           <p class="my-3 text-secondary">SISWA SISWI</p>
         </div>
       </div>
-      <div class="col-6 col-md-6 text-center">
+      <div class="col-lg-3 col-6 col-md-6 text-center">
         <div class="counter">
           <p class="angka my-3 display-3 fw-semibold"><span data-count="1000">0</span>+</p>
           <p class="my-3 text-secondary">ALUMNI</p>
         </div>
       </div>
-      <div class="col-6 col-md-6 text-center">
+      <div class="col-lg-3 col-6 col-md-6 text-center">
         <div class="counter">
           <p class="angka my-3 display-3 fw-semibold"><span data-count="50">0</span>+</p>
           <p class="my-3 text-secondary">TENAGA PENDIDIK</p>
         </div>
       </div>
-      <div class="col-6 col-md-6 text-center">
+      <div class="col-lg-3 col-6 col-md-6 text-center">
         <div class="counter">
         <p class="angka my-3 display-3 fw-semibold"><span data-count="36">0</span>+</p>
         <p class="my-3 text-secondary">MITRA KAMI</p>

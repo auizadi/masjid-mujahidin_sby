@@ -41,3 +41,7 @@ Route::get('/berita', function () {
     return view('berita-page');
 
 });
+Route::get('/old-berita', function () {
+    return view('old-berita');
+
+});

@@ -1,9 +1,9 @@
-
 @extends('layout.v_template')
 @section('title', 'Berita | Masjid Mujahidin')
 @section('css')
 <link rel="stylesheet" href="{{asset('styleCSS/berita.css')}}">
 @endsection
+
 @section('content')
 
 
@@ -115,62 +115,13 @@
 
         <a href="#" class="more">READ MORE</a>
     </div>
-    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-        <a href="#" class="my-3"><img src="{{ asset('img/berita5.jpg') }}" width="300px"  alt="" class="mb-4"> </a>
-        <br>
-        <a class="judul">Upacara Peringatan Hari Pendidikan Nasional di Yayasan Masjid Mujahidin Surabaya</a>
-        <br>
-        <p class="tgl">MAY 2, 2024 | <a href="#">UNCATEGORIZED</a></p>
-        <p class="isi">Surabaya, 2 Mei 2024 – Yayasan Masjid Mujahidin Surabaya menyelenggarakan upacara peringatan Hari Pendidikan Nasional di lapangan depan masjid pada Kamis pagi, 2 Mei 2024. Upacara yang dimulai pukul 07.00 WIB ini diikuti oleh seluruh guru dan siswa dari TK, SD, SMP,...</p>
-
-        <a href="#" class="more">READ MORE</a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-        <a href="#" class="my-3"><img src="{{ asset('img/berita6.jpg') }}" width="300px"  alt="" class="mb-4"> </a>
-        <br>
-        <a class="judul">Safari Dakwah Bersama Bunda Astrie Ivo</a>
-        <br>
-        <p class="tgl">APR 30, 2024 | <a href="#">UNCATEGORIZED</a></p>
-       
-
-        <a href="#" class="more">READ MORE</a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-        <a href="#" class="my-3"><img src="{{ asset('img/berita7.jpeg') }}" width="300px"  alt="" class="mb-4"> </a>
-        <br>
-        <a class="judul">Halal Bihalal Keluarga Besar Yayasan Masjid Mujahidin</a>
-        <br>
-        <p class="tgl">APR 19, 2024 | <a href="#">UNCATEGORIZED</a></p>
-        <p class="isi">Keluarga Besar Yayasan Masjid Mujahidin Gelar Halal Bihalal, Perkuat Ukhuwah Islamiyah Surabaya, 18 April 2024 - Dalam rangka mempererat tali silaturahmi dan ukhuwah Islamiyah, Keluarga Besar Yayasan Masjid Mujahidin Jalan Tanjung Perak Barat 275, Surabaya...</p>
-
-        <a href="#" class="more">READ MORE</a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-        <a href="#" class="my-3"><img src="{{ asset('img/berita8.jpg') }}" width="300px"  alt="" class="mb-4"> </a>
-        <br>
-        <a class="judul">Dauroh Ramadhan</a>
-        <br>
-        <p class="tgl">MAR 23, 2024 | <a href="#">UNCATEGORIZED</a></p>
-        
-
-        <a href="#" class="more">READ MORE</a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
-        <a href="#" class="my-3"><img src="{{ asset('img/berita9.jpeg') }}" width="300px"  alt="" class="mb-4 "> </a>
-        <br>
-        <a class="judul">Optimalisasi Pembuatan & Pengelolaan Konten Website Unit Pendidikan Yayasan Masjid Mujahidin Surabaya.</a>
-        <br>
-        <p class="tgl">MAR 22, 2024 | <a href="#">UNCATEGORIZED</a></p>
-        <p class="isi">Pengarahan Teknis Optimalisasi Pembuatan dan Pengelolaan Konten Website Unit Pendidikan Yayasan Masjid Mujahidin Surabaya. Surabaya, 21 Maret 2024 - Pada hari Kamis, 21 Maret 2024, bertempat di SD Mujahidin 2 yang beralamatkan di Jalan Griya Citra Asri RM 18/19,...</p>
-
-        <a href="#" class="more">READ MORE</a>
-    </div>
+    
 
 
 
   </div>
-    <div class="next">
-        <a href="/old-berita"><i class="fa-solid fa-angles-left" style="color: #4449E0; margin-right: 5px;"></i>Older Entries</a>
+    <div class="next1 position-relative">
+        <a href="/berita" class="position-absolute top-50 end-0 translate-middle-y">Next Entries<i class="fa-solid fa-angles-right" style="color: #4449E0;"></i></a>
     </div>
 </div>
 

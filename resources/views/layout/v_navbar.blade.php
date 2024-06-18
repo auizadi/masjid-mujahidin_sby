@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <img src="{{ asset('img/logo_masjid_mujahidin_png.png') }}" alt="" width="50" />
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars" style="color: #33b412;"></i>
     </button>
     <div class="collapse navbar-collapse justify-content-end mt-2" id="navbarSupportedContent">
       <ul class="nav navbar-nav align-items-center gap-3">

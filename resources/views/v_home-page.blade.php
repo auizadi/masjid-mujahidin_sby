@@ -12,10 +12,12 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="p-2">
-                                <h1 class="text-light fw-bold">Selamat Datang di Website</h1>
-                                <h1 class="text-light fw-bold">Yayasan Masjid Mujahidin Surabaya</h1>
-                                <div class="col-md-8">
-                                    <h4 class="text-light fw-semibold pt-4 pb-4">Merupakan lembaga yang mendukung & mengelola berbagai kegiatan keagamaan, sosial, dan pendidikan di wilayah Surabaya.</h4> 
+                                
+                                <p class="selamat text-light fw-bold">Selamat Datang di Website</p>
+                                
+                                <p class="masjid text-light fw-bold">Yayasan Masjid Mujahidin Surabaya</p>
+                                <div class="col-md-7">
+                                    <p class="text-light pt-4 pb-4">Merupakan lembaga yang mendukung & mengelola berbagai kegiatan keagamaan, sosial, dan pendidikan di wilayah Surabaya.</p> 
                                 </div>
                                 <div class="button-effect">
                                     <a href="" class="btn btn-light effect effect-2 text-dark fw-bold">Take The Tour</a>
@@ -30,9 +32,9 @@
 </div>
 
 {{-- sambutan --}}
-<div class="container pt-5">
+<div class="sambutan container pt-5">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-lg-6 col-md-12 col-12">
             <h5 class="text-success text-uppercase fw-bold">Sambutan singkat</h5>
             <h2 class="text-dark text-uppercase fw-bold pt-3">ketua yayasan mujahidin surabaya</h2>
             <p class="text-secondary pt-2"> Assalamu’alaikum Warahmatullahi Wabarakatuh para jamaah yang dirahmati Allah SWT.</br>
@@ -53,7 +55,8 @@
                 <li>Artikel dan konten edukatif</li>
                 <li>Donasi online</li>
             </ol>
-            </br>Kami berharap, kehadiran website ini dapat menjadi:
+            </br>
+            <p>Kami berharap, kehadiran website ini dapat menjadi:</p>
             <ol class="custom-ol pt-2">
                 <li>Sarana untuk meningkatkan keimanan dan ketaqwaan para jamaah</li>
                 <li>Media untuk mempererat silaturahmi antar jamaah dan masyarakat</li>
@@ -62,10 +65,10 @@
             </ol>
             </p>
         </div>
-        <div class="col-md-4 text-center">
-            <img src="{{ asset('img')}}/kepala_yayasan_png.png" alt="" style="width: 400px;">
+        <div class="ketua col-lg-6 col-md-12 col-12 text-center">
+            <img src="{{ asset('img')}}/kepala_yayasan_png.png" alt="" style="width: 500px;">
             <h3 class="text-dark fw-bold pt-3">H. Idris Jahja</h3>
-            <h5 class="text-secondary fw-semibold"><em>Ketua Yayasan Masjid Mujahidin Surabaya</em></h5>
+            <p class=" fw-semibold">Ketua Yayasan Masjid Mujahidin Surabaya</p>
         </div>
         <div class="col-md-12">
             <p class="text-secondary">
@@ -82,7 +85,7 @@
     
     {{--  --}}
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 mb-2">
+            <div class="col-lg-4 col-12 col-md-12 mb-2">
                 <div class="text-center p-3">
                     <img src="{{ asset('img') }}/logo_smpdin_fix_480_x_515_png.png" alt="" class="my-3 mx-auto d-block" style="width:100px; height:100px;">
                     <div>
@@ -92,7 +95,7 @@
                 </div>
             </div>
             
-            <div class="col-12 col-md-4 mb-2">
+            <div class="col-lg-4 col-12 col-md-12 mb-2">
                 <div class="text-center p-3">
                     <img src="{{ asset('img') }}/2.png" alt="" class="my-3 img-fluid mx-auto d-block">
                     <div>
@@ -102,7 +105,7 @@
                 </div>
             </div>
             
-            <div class="col-12 col-md-4 mb-2">
+            <div class="col-lg-4 col-12 col-md-12 mb-2">
                 <div class="text-center p-3">
                     <img src="{{ asset('img') }}/3.png" alt="" class="my-3 img-fluid mx-auto d-block">
                     <div>
@@ -130,7 +133,7 @@
                 <h2 class="text-dark text-uppercase fw-bold text-center pb-3 pt-5">Informasi Kegiatan Terkini</h2>
                 <h4 class="text-dark fw-semibold text-center pb-5">Berikut merupakan berita terkini terkait agenda sekolah atau prestasi siswa siswi SMP MUJAHIDIN Surabaya</h2>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col mb-5">
+                        <div class="col-lg-4 col-md-12 col-12 mb-5">
                           <div class="card h-100 p-3 mb-2" style="margin: 30px;">
                             <img src="{{ asset('img/berita1.jpg') }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -140,7 +143,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col mb-5">
+                        <div class="col-lg-4 col-md-12 col-12 mb-5">
                             <div class="card h-100 p-3 mb-2" style="margin: 30px;">
                               <img src="{{ asset('img/berita3.jpg') }}" class="card-img-top" alt="...">
                               <div class="card-body">
@@ -150,7 +153,7 @@
                               </div>
                             </div>
                           </div>
-                        <div class="col mb-5">
+                        <div class="col-lg-4 col-md-12 col-12 mb-5">
                           <div class="card h-100 p-3 mb-2" style="margin: 30px;">
                             <img src="{{ asset('img/berita2.jpeg') }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -161,10 +164,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="text-center">
-                        <div class="button-effect pb-5 pt-5">
-                            <a href="" class="btn btn-primary effect effect-3"><h5 class="fw-semibold">Lihat Lainnya</h5></a>
-                        </div>
+                    <div class="text-center my-5">
+                        <a target="_blank" href="/"><button type="button" class="btn btn-success px-4 py-2 fw-bold fs-5" >Lihat Lainnya</button> </a>
                     </div>
             </div>
         </div>
