@@ -30,7 +30,7 @@
           <li class="nav-item dropstart">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ekonomi</a>
               <ul class="dropdown-menu">
-                  <li class="dropdown-item"><a href="#">Lembaga Amal Mujahidin</a></li>
+                  <li class="dropdown-item"><a href="/donasionline">Lembaga Amal Mujahidin</a></li>
                   <li class="dropdown-item"><a href="#">UBO</a></li>
                   <li class="dropdown-item"><a href="#">Suara Mujahidin Plus</a></li>
               </ul>

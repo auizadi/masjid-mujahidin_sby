@@ -6,8 +6,6 @@
 @endsection
 @section('content')
 
-
-
     <!-- topik -->
 
 <div class="container-fluid ">
