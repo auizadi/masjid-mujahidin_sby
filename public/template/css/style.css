@@ -337,3 +337,48 @@ textarea.input--style-5{
   line-height: 50px;
   border: none;
 }
+
+.demo{ background: #cacaca; }
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border:  none;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #cacaca;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
