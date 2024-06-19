@@ -1,4 +1,5 @@
 @extends('layout.v_template')
+@section('title', 'Donasi | Masjid Mujahidin')
 @section('content')
     <div class="container">
         <div class="row">

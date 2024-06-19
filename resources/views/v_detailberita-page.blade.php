@@ -32,9 +32,7 @@
                         <p >Puncak acara adalah pengalungan medali dan pemberian ijazah kepada seluruh siswa kelas XII. Suasana haru dan bahagia menyelimuti seluruh ruangan saat para siswa menerima ijazah mereka.</p>
                         <p >Acara akhirussanah SMA Mujahidin Surabaya ini merupakan momen penting bagi para siswa, karena menandakan akhir dari masa belajar mereka di SMA Mujahidin dan awal dari babak baru dalam kehidupan mereka.</p>
                     </div>
-                  
-                    
-                    
+
                     
                         <div class="col-lg-4 col-md-4 col-4 ">
                             <img src="{{ asset('img/detail1.jpeg') }}" alt="" style="width: 300px; height:300px; object-fit:cover;">
